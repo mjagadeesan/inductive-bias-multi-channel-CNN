@@ -9,4 +9,5 @@ The python notebook (code.ipynb) contains experiments to analyze the implicit bi
 
 We empirically observe the following two properties: 
 1. For larger kernel sizes, the learned predictor would tend to be sparse in Fourier domain, and  
-2. The learned predictor is fairly invariant to number of output channels. 
+2. The induced regularizer and the learned predictor are fairly invariant to number of output channels. 
+3. When there is a ReLU non-linearity, the induced regularizer continues to be fairly invariant to the number of output channels. 
