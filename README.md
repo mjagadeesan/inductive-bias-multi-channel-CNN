@@ -7,7 +7,7 @@ We study the function space characterization of the inductive bias resulting fro
 # Experiments
 The python notebook (code.ipynb) contains experiments to analyze the implicit bias of gradient descent on two-layer linear convolutional neural networks with a single input channel on the MNIST dataset. These experiments mainly serve to validate the theoretical findings in our paper. 
 
-We empirically observe the following two properties: 
+We empirically observe the following three properties: 
 1. For larger kernel sizes, the learned predictor tends to be sparse in Fourier domain. 
 2. The induced regularizer and the learned predictor are fairly invariant to number of output channels. 
 3. When there is a ReLU non-linearity, the induced regularizer continues to be fairly invariant to the number of output channels. 
