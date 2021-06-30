@@ -8,19 +8,18 @@ We study the function space characterization of the inductive bias resulting fro
 The experiments on the MNIST dataset for (linear) convolutional neural networks with a single channel inputs can be found in `single-input-channel/`. 
 The experiments on the CIFAR-10 dataset for (linear) convolutional neural networks with a 3-channel inputs can be found in `multi-input-channel/`. 
 ## Experiments on MNIST
-`single-input-channel/generate_data.ipynb`: code to generate sample of MNIST dataset for binary classification task for linear convolutional neural network experiments
-`single-input-channel/generate_data_nonlinear.ipynb`: code to generate sample of MNIST dataset for binary classification task for nonlinear convolutional neural network experiments
-`single-input-channel/training-test-data/': folder that contains generated samples of MNIST dataset
-`single-input-channel/train-network.ipynb`: code to train the linear convolutional neural network using gradient descent
-`single-input-channel/train-network-nonlinear-bias.ipynb`: code to train a simple nonlinear convolutional neural network with bias parameters using gradient descent
-`single-input-channel/train-network-nonlinear-no-bias.ipynb`: code to train a simple nonlinear convolutional neural network with no bias parameters using gradient descent
-`single-input-channel/cvxpy.ipyb`: code to explicitly compute induced regularizer in special cases using CVXPY
-`single-input-channel/plotting.ipynb`: plotting code
+- `single-input-channel/generate_data.ipynb`: code to generate sample of MNIST dataset for binary classification task for linear convolutional neural network experiments
+- `single-input-channel/generate_data_nonlinear.ipynb`: code to generate sample of MNIST dataset for binary classification task for nonlinear convolutional neural network experiments
+- `single-input-channel/training-test-data/': folder that contains generated samples of MNIST dataset
+- `single-input-channel/train-network.ipynb`: code to train the linear convolutional neural network using gradient descent
+- `single-input-channel/train-network-nonlinear-bias.ipynb`: code to train a simple nonlinear convolutional neural network with bias parameters using gradient descent
+- `single-input-channel/train-network-nonlinear-no-bias.ipynb`: code to train a simple nonlinear convolutional neural network with no bias parameters using gradient descent
+- `single-input-channel/cvxpy.ipyb`: code to explicitly compute induced regularizer in special cases using CVXPY
+- `single-input-channel/plotting.ipynb`: plotting code
 
-## Experiments on CIFAR-10
-`multi-input-channel/generate_training_data.ipynb`: code to generate sample of CIFAR-10 dataset for binary classification task for linear convolutional neural network experiments
-`multi-input-channel/training-test-data/': folder that contains generated samples of MNIST dataset
-`multi-input-channel/train-network-cifar.ipynb`: code to train the linear convolutional neural network using gradient descent
-`multi-input-channel/cvxpy.ipyb`: code to explicitly compute induced regularizer in special cases using CVXPY
-`multi-input-channel/plotting_cifar.ipynb`: plotting code
+- `multi-input-channel/generate_training_data.ipynb`: code to generate sample of CIFAR-10 dataset for binary classification task for linear convolutional neural network experiments
+- `multi-input-channel/training-test-data/': folder that contains generated samples of MNIST dataset
+- `multi-input-channel/train-network-cifar.ipynb`: code to train the linear convolutional neural network using gradient descent
+- `multi-input-channel/cvxpy.ipyb`: code to explicitly compute induced regularizer in special cases using CVXPY
+- `multi-input-channel/plotting_cifar.ipynb`: plotting code
 
